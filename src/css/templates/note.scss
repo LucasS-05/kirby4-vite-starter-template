@@ -1,0 +1,38 @@
+.note {
+  max-width: 35rem;
+  margin: 0 auto;
+}
+
+.note-header {
+  padding-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.note-footer {
+  padding: 6rem 0;
+}
+
+.note-date {
+  color: var(--color-text-grey);
+}
+
+.note-tags {
+  display: flex;
+  margin-bottom: 1.5rem;
+
+  li {
+    margin-right: .5rem;
+  }
+
+  a {
+    padding: .5rem 1rem;
+    display: block;
+    background: var(--color-light);
+
+    &:hover {
+      background: var(--color-black);
+      color: var(--color-white);
+    }
+  }
+}
+
