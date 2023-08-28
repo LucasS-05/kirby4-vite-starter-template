@@ -4,7 +4,7 @@
   "description": "<img src=\"http://getkirby.com/assets/images/github/starterkit.jpg\" width=\"300\">",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "vite": "vite",
     "dev": "concurrently \"npm:server\" \"npm:vite\"",
     "server": "php -S localhost:8080 kirby/router.php",
     "build": "vite build",
@@ -14,6 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "concurrently": "^8.2.1",
     "vite": "^4.4.9",
     "vite-plugin-kirby": "^4.0.6"
   },

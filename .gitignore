@@ -49,6 +49,7 @@ Icon
 
 /site/config/.license
 
+package-lock.json
 
 /vendor
 /site/plugins/*
